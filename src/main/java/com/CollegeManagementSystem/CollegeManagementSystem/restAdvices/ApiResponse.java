@@ -1,4 +1,4 @@
-package com.CollegeManagementSystem.CollegeManagementSystem.globalRestControllerAdvice;
+package com.CollegeManagementSystem.CollegeManagementSystem.restAdvices;
 
 import lombok.Builder;
 import lombok.Data;

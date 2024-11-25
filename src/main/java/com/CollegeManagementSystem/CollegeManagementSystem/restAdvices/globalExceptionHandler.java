@@ -1,7 +1,6 @@
-package com.CollegeManagementSystem.CollegeManagementSystem.globalRestControllerAdvice;
+package com.CollegeManagementSystem.CollegeManagementSystem.restAdvices;
 
 import com.CollegeManagementSystem.CollegeManagementSystem.exceptions.ResourceNotFoundException;
-import org.springframework.boot.context.config.ConfigDataResourceNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

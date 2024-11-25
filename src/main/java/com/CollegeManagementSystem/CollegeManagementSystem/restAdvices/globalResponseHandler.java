@@ -1,14 +1,14 @@
-package com.CollegeManagementSystem.CollegeManagementSystem.globalRestControllerAdvice;
+package com.CollegeManagementSystem.CollegeManagementSystem.restAdvices;
 
 import org.springframework.core.MethodParameter;
 import org.springframework.http.MediaType;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.http.server.ServerHttpRequest;
 import org.springframework.http.server.ServerHttpResponse;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
 
-import java.util.Objects;
-
+@RestControllerAdvice
 public class globalResponseHandler implements ResponseBodyAdvice<Object> {
 
     @Override
