@@ -51,7 +51,7 @@ public class SubjectService {
 
         SubjectEntity savedSubjectEntity = subjectRepository.save(subjectEntity);
 
-        log.info("Successfully added subject with id: {}", savedSubjectEntity.getSubjectId());
+        log.info("Successfully added subject with id: {}", savedSubjectEntity.getId());
         return mapper.map(savedSubjectEntity, SubjectDTO.class);
     }
 
